@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A31DE882142C658001A07B2 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31DE872142C658001A07B2 /* MealTableViewCell.swift */; };
+		6A31DE8A2142D329001A07B2 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31DE892142D329001A07B2 /* MealTableViewController.swift */; };
 		6AA66C2B21427A7800E7743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA66C2A21427A7800E7743F /* AppDelegate.swift */; };
 		6AA66C2D21427A7800E7743F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA66C2C21427A7800E7743F /* ViewController.swift */; };
 		6AA66C3021427A7800E7743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA66C2E21427A7800E7743F /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A31DE872142C658001A07B2 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		6A31DE892142D329001A07B2 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		6AA66C2721427A7800E7743F /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA66C2A21427A7800E7743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA66C2C21427A7800E7743F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				6AA66C2A21427A7800E7743F /* AppDelegate.swift */,
 				6AA66C2C21427A7800E7743F /* ViewController.swift */,
 				6AA66C4A2142961400E7743F /* RatingControl.swift */,
+				6A31DE892142D329001A07B2 /* MealTableViewController.swift */,
+				6A31DE872142C658001A07B2 /* MealTableViewCell.swift */,
 				6AA66C4C2142AE0C00E7743F /* Meal.swift */,
 				6AA66C2E21427A7800E7743F /* Main.storyboard */,
 				6AA66C3121427A7A00E7743F /* Assets.xcassets */,
@@ -207,6 +213,8 @@
 				6AA66C2D21427A7800E7743F /* ViewController.swift in Sources */,
 				6AA66C4B2142961400E7743F /* RatingControl.swift in Sources */,
 				6AA66C2B21427A7800E7743F /* AppDelegate.swift in Sources */,
+				6A31DE8A2142D329001A07B2 /* MealTableViewController.swift in Sources */,
+				6A31DE882142C658001A07B2 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,13 +375,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHMMFJ7N9P;
+				DEVELOPMENT_TEAM = V44VEL7NMF;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = agency.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyperegrine.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,13 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHMMFJ7N9P;
+				DEVELOPMENT_TEAM = V44VEL7NMF;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = agency.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyperegrine.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,7 +412,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHMMFJ7N9P;
+				DEVELOPMENT_TEAM = V44VEL7NMF;
 				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,7 +433,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHMMFJ7N9P;
+				DEVELOPMENT_TEAM = V44VEL7NMF;
 				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
